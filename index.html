@@ -5,12 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   
   <title>Carmel Inter College Maharajganj | Unofficial Alumni & Student Memory Wall</title>
+  
   <meta name="google-site-verification" content="sRu7DnBYvnFWK77Jd35rudyJzenRu0Pjuxo_TKhW1Ws" />
-  <meta name="description" content="Unofficial Alumni & Student Memory Portal for Carmel Inter College, Maharajganj (U.P.). Created by Navneet Yadav (Batch of 2024).">
-  <meta name="keywords" content="Carmel Inter College Maharajganj, Carmel Alumni Unofficial, Navneet Yadav 2024, Maharajganj school">
+  <meta name="description" content="Carmel Inter College Maharajganj Unofficial Alumni & Student Memory Portal. Connect with classmates, seniors, view farewell photos and campus memories. Created by Navneet Yadav (Batch of 2024).">
+  <meta name="keywords" content="Carmel Inter College Maharajganj, Carmel Maharajganj, Carmel Inter College, Carmel Inter College Alumni, Carmel memories, Navneet Yadav 2024, Maharajganj school">
   <meta name="author" content="Navneet Yadav">
+  <meta name="robots" content="index, follow">
 
-  <!-- Tailwind CSS & Lucide Icons -->
+  <meta property="og:title" content="Carmel Inter College Maharajganj - Alumni Memory Wall">
+  <meta property="og:description" content="Unofficial Alumni & Student Portal. Connect with seniors, juniors and relive campus days.">
+  <meta property="og:url" content="https://navneetyadavup.github.io/carmel-inter-college-maharajganj/">
+  <meta property="og:type" content="website">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Carmel Inter College Maharajganj",
+    "alternateName": [
+      "Carmel Maharajganj",
+      "Carmel Inter College Alumni",
+      "Carmel Inter College Maharajganj Unofficial"
+    ],
+    "url": "https://navneetyadavup.github.io/carmel-inter-college-maharajganj/",
+    "description": "Unofficial Alumni and Student Memory Portal for Carmel Inter College, Maharajganj.",
+    "author": {
+      "@type": "Person",
+      "name": "Navneet Yadav"
+    }
+  }
+  </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +81,6 @@
     }
   </style>
 
-  <!-- Firebase SDKs -->
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
 </head>
@@ -86,7 +110,6 @@
   <header class="sticky top-0 z-40 glass-navy border-b border-amber-500/20 shadow-2xl">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
-      <!-- LOGO -->
       <a href="#" class="flex items-center space-x-3 group">
         <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-500 via-amber-400 to-amber-200 p-0.5 shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
           <div class="w-full h-full bg-brand-navy rounded-[14px] flex items-center justify-center text-amber-400">
@@ -103,7 +126,6 @@
         </div>
       </a>
 
-      <!-- DESKTOP NAV -->
       <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
         <a href="#wall" class="hover:text-amber-400 transition-colors flex items-center space-x-1.5">
           <i data-lucide="message-square" class="w-4 h-4 text-amber-400"></i>
@@ -119,10 +141,9 @@
         </a>
       </nav>
 
-      <!-- CREATOR & ACTION BUTTONS -->
       <div class="flex items-center space-x-2.5">
         <a href="https://www.linkedin.com/in/navneet-yadav-60a758289/" target="_blank" rel="noopener noreferrer" 
-           class="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold bg-[#0A66C2] hover:bg-[#004182] text-white shadow-md shadow-blue-900/30 transition-all hover:scale-105">
+           class="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold bg-[#0A66C2] hover:bg-[#004182] text-white shadow-md transition-all hover:scale-105">
           <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
           <span class="hidden sm:inline">Navneet ('24)</span>
           <span class="sm:hidden">Navneet</span>
@@ -140,13 +161,11 @@
   <section class="relative pt-12 pb-20 sm:pt-20 sm:pb-28 hero-glow overflow-hidden border-b border-amber-500/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
       
-      <!-- Creator Badge -->
       <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-surface border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-semibold mb-6 shadow-xl">
-        <i data-lucide="sparkles" class="w-4 h-4 text-amber-400 animate-spin" style="animation-duration: 5s;"></i>
+        <i data-lucide="sparkles" class="w-4 h-4 text-amber-400"></i>
         <span>Designed & Developed by <strong class="text-white underline decoration-amber-400">Navneet Yadav (Batch of 2024)</strong></span>
       </div>
 
-      <!-- Main Headline -->
       <h1 class="text-3xl sm:text-6xl lg:text-7xl font-cinzel font-black tracking-tight text-white leading-tight">
         CARMEL INTER COLLEGE
         <span class="block text-xl sm:text-3xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-100 mt-3">
@@ -158,18 +177,18 @@
         Woh assembly ki prayer, sports ground ki masti, cycle stand ke kisse aur farewell ke aansu. Ek student-led platform jahan seniors aur juniors apni yaadein hamesha zinda rakh sakte hain!
       </p>
 
-      <!-- REAL-TIME COUNTERS -->
+      <!-- COUNTERS -->
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-3xl mx-auto mt-12">
         <div class="bg-brand-surface/90 border border-amber-500/20 p-4 rounded-2xl shadow-xl backdrop-blur-md">
-          <p id="statMemories" class="text-3xl font-black text-amber-400">24</p>
+          <p id="statMemories" class="text-3xl font-black text-amber-400">0</p>
           <p class="text-xs font-semibold text-slate-400 mt-1">Memories Shared</p>
         </div>
         <div class="bg-brand-surface/90 border border-amber-500/20 p-4 rounded-2xl shadow-xl backdrop-blur-md">
-          <p id="statPhotos" class="text-3xl font-black text-blue-400">12</p>
+          <p id="statPhotos" class="text-3xl font-black text-blue-400">0</p>
           <p class="text-xs font-semibold text-slate-400 mt-1">Campus Photos</p>
         </div>
         <div class="bg-brand-surface/90 border border-amber-500/20 p-4 rounded-2xl shadow-xl backdrop-blur-md">
-          <p id="statLikes" class="text-3xl font-black text-rose-500">284</p>
+          <p id="statLikes" class="text-3xl font-black text-rose-500">89</p>
           <p class="text-xs font-semibold text-slate-400 mt-1">Hearts Given</p>
         </div>
         <div class="bg-brand-surface/90 border border-amber-500/20 p-4 rounded-2xl shadow-xl backdrop-blur-md">
@@ -178,7 +197,6 @@
         </div>
       </div>
 
-      <!-- ACTION BUTTONS -->
       <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
         <button onclick="scrollToWriteMemory()" class="px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-brand-navy font-bold text-sm shadow-xl shadow-amber-500/25 transition-all flex items-center space-x-2">
           <i data-lucide="edit-3" class="w-4 h-4"></i>
@@ -198,13 +216,12 @@
     <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 pb-4 border-b border-amber-500/20 gap-4">
       <div>
         <div class="flex items-center space-x-2">
-          <span class="w-3 h-3 rounded-full bg-amber-400 shadow-md shadow-amber-500/50"></span>
+          <span class="w-3 h-3 rounded-full bg-amber-400 shadow-md"></span>
           <h2 class="text-2xl sm:text-3xl font-cinzel font-bold text-white">Carmelite Voices & Memories</h2>
         </div>
         <p class="text-xs sm:text-sm text-slate-400 mt-1">Seniors ka guidance, juniors ka shoutout, aur yaadein</p>
       </div>
 
-      <!-- Role Filters -->
       <div class="flex items-center space-x-1.5 overflow-x-auto no-scrollbar pb-1">
         <button onclick="filterMemories('all')" id="btnFilterAll" class="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-amber-500 text-brand-navy transition-all shadow-md">All</button>
         <button onclick="filterMemories('senior')" id="btnFilterSenior" class="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-brand-surface text-slate-300 border border-amber-500/20 hover:border-amber-400 transition-all">Seniors / Alumni</button>
@@ -215,7 +232,7 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       
-      <!-- FORM (LEFT 4/5 COLS) -->
+      <!-- FORM -->
       <div id="postMemoryContainer" class="lg:col-span-5 xl:col-span-4">
         <div class="bg-brand-surface/90 rounded-3xl p-6 border border-amber-500/20 shadow-2xl backdrop-blur-md sticky top-28">
           <div class="flex items-center justify-between pb-4 border-b border-white/10 mb-5">
@@ -239,7 +256,7 @@
                   <option value="senior">Senior / Alumni</option>
                   <option value="junior">Junior Student</option>
                   <option value="teacher">Teacher / Faculty</option>
-                  <option value="guest">Visitor / Well Wisher</option>
+                  <option value="guest">Visitor</option>
                 </select>
               </div>
 
@@ -251,10 +268,10 @@
 
             <div>
               <label class="block text-xs font-bold text-slate-300 mb-1">Apna Message / Yaadein Likhein *</label>
-              <textarea id="authorMessage" rows="4" required placeholder="Carmel Maharajganj ke dino ki koi yaad, juniors ke liye advice, ya school ko ek pyara sa message..." class="w-full text-sm px-3.5 py-2.5 rounded-xl bg-brand-navy border border-amber-500/20 text-white placeholder-slate-500 focus:border-amber-400 outline-none transition-all resize-none"></textarea>
+              <textarea id="authorMessage" rows="4" required placeholder="Carmel Maharajganj ke dino ki koi yaad..." class="w-full text-sm px-3.5 py-2.5 rounded-xl bg-brand-navy border border-amber-500/20 text-white placeholder-slate-500 focus:border-amber-400 outline-none transition-all resize-none"></textarea>
             </div>
 
-            <button type="submit" id="btnSubmitMemory" class="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-brand-navy text-sm font-bold shadow-lg shadow-amber-500/20 transition-all flex items-center justify-center space-x-2">
+            <button type="submit" id="btnSubmitMemory" class="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-brand-navy text-sm font-bold shadow-lg transition-all flex items-center justify-center space-x-2">
               <i data-lucide="send" class="w-4 h-4"></i>
               <span>Wall Par Post Karein</span>
             </button>
@@ -262,11 +279,9 @@
         </div>
       </div>
 
-      <!-- MEMORIES LIST (RIGHT 7/8 COLS) -->
+      <!-- MEMORIES LIST -->
       <div class="lg:col-span-7 xl:col-span-8">
-        <div id="memoriesGrid" class="space-y-4">
-          <!-- Loaded by JS -->
-        </div>
+        <div id="memoriesGrid" class="space-y-4"></div>
       </div>
 
     </div>
@@ -282,7 +297,7 @@
             <span class="w-3 h-3 rounded-full bg-blue-400"></span>
             <h2 class="text-2xl sm:text-3xl font-cinzel font-bold text-white">Carmel Campus Gallery</h2>
           </div>
-          <p class="text-xs sm:text-sm text-slate-400 mt-1">School premises, labs, sports day, and farewell moments</p>
+          <p class="text-xs sm:text-sm text-slate-400 mt-1">School premises, sports day, and farewell moments</p>
         </div>
 
         <button onclick="openPhotoModal()" class="inline-flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-brand-navy font-bold text-xs shadow-md transition-all">
@@ -291,18 +306,15 @@
         </button>
       </div>
 
-      <!-- PHOTO CARDS GRID -->
-      <div id="photosGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Rendered by JS -->
-      </div>
+      <!-- PHOTOS CONTAINER -->
+      <div id="photosGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
     </div>
   </section>
 
-  <!-- CREATOR SPOTLIGHT SECTION (NAVNEET YADAV) -->
+  <!-- CREATOR SPOTLIGHT -->
   <section id="creator" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div class="bg-gradient-to-br from-brand-surface via-[#0d2244] to-brand-card rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden border border-amber-500/20">
-      
       <div class="flex flex-col md:flex-row items-center gap-8 relative z-10">
         <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-3xl bg-gradient-to-tr from-amber-400 to-amber-200 p-1 shadow-2xl shrink-0 flex items-center justify-center text-brand-navy text-4xl sm:text-5xl font-cinzel font-extrabold">
           NY
@@ -350,7 +362,7 @@
     </div>
   </footer>
 
-  <!-- MOBILE BOTTOM DOCK -->
+  <!-- MOBILE NAVIGATION -->
   <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 glass-navy border-t border-amber-500/20 py-2 px-6 flex items-center justify-between shadow-2xl">
     <a href="#" class="flex flex-col items-center text-slate-400 hover:text-amber-400">
       <i data-lucide="home" class="w-5 h-5"></i>
@@ -360,7 +372,7 @@
       <i data-lucide="message-square" class="w-5 h-5"></i>
       <span class="text-[10px] font-bold mt-1">Wall</span>
     </a>
-    <button onclick="scrollToWriteMemory()" class="w-12 h-12 rounded-full bg-amber-500 text-brand-navy shadow-lg shadow-amber-500/30 flex items-center justify-center -mt-6 hover:scale-105 active:scale-95 transition-transform font-bold">
+    <button onclick="scrollToWriteMemory()" class="w-12 h-12 rounded-full bg-amber-500 text-brand-navy shadow-lg flex items-center justify-center -mt-6 hover:scale-105 transition-transform font-bold">
       <i data-lucide="plus" class="w-6 h-6"></i>
     </button>
     <a href="#gallery" class="flex flex-col items-center text-slate-400 hover:text-amber-400">
@@ -388,4 +400,391 @@
 
       <form onsubmit="handlePhotoSubmit(event)" class="space-y-4">
         <div>
-          <label class="block text-xs font-bold
+          <label class="block text-xs font-bold text-slate-300 mb-1">Photo Title / Caption *</label>
+          <input type="text" id="photoTitle" required placeholder="e.g. Farewell 2024 Moments" class="w-full text-sm px-3.5 py-2.5 rounded-xl bg-brand-navy border border-amber-500/20 text-white outline-none focus:border-amber-400">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 mb-1">Aapka Naam & Batch *</label>
+          <input type="text" id="photoUploader" required placeholder="e.g. Navneet Yadav (Batch 2024)" class="w-full text-sm px-3.5 py-2.5 rounded-xl bg-brand-navy border border-amber-500/20 text-white outline-none focus:border-amber-400">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 mb-1">Photo Select Karein (Gallery / Camera) *</label>
+          <input type="file" id="photoFileInput" accept="image/*" class="w-full text-xs text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-amber-500 file:text-brand-navy hover:file:bg-amber-400 cursor-pointer">
+        </div>
+
+        <div class="text-center text-xs text-slate-500 font-semibold">- YA -</div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 mb-1">Image URL Paste Karein (Optional)</label>
+          <input type="url" id="photoUrlInput" placeholder="https://..." class="w-full text-sm px-3.5 py-2.5 rounded-xl bg-brand-navy border border-amber-500/20 text-white outline-none focus:border-amber-400">
+        </div>
+
+        <button type="submit" id="btnUploadPhoto" class="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-brand-navy text-sm font-bold shadow-lg transition-all">
+          Upload to Campus Gallery
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBrmeff75bVzGfpPgyiPQaVjdjfXwYbqBU",
+      authDomain: "carmel-alumni.firebaseapp.com",
+      projectId: "carmel-alumni",
+      storageBucket: "carmel-alumni.firebasestorage.app",
+      messagingSenderId: "770987689373",
+      appId: "1:770987689373:web:8d6742bd8636b1e64cdb74",
+      measurementId: "G-CNP9YCQ0NG"
+    };
+
+    let db = null;
+    try {
+      if (!firebase.apps.length) {
+        firebase.initializeApp(firebaseConfig);
+      }
+      db = firebase.firestore();
+    } catch(err) {
+      console.warn("Firestore mode fallback:", err);
+    }
+
+    const defaultMemories = [
+      {
+        id: "mem-1",
+        name: "Navneet Yadav",
+        role: "senior",
+        batch: "Batch of 2024",
+        message: "Carmel Maharajganj ke din hamesha yaad rahenge! Assembly prayer, teachers ka support aur sports ground ki masti... All the best to all upcoming batches!",
+        likes: 42
+      },
+      {
+        id: "mem-2",
+        name: "Aditya Verma",
+        role: "senior",
+        batch: "Batch of 2023",
+        message: "Cycle stand ke paas lunch share karna aur physics lab ke practicals. Proud to see our alumni platform!",
+        likes: 29
+      },
+      {
+        id: "mem-3",
+        name: "Pooja Mishra",
+        role: "junior",
+        batch: "Class 11th B",
+        message: "Thank you seniors for always inspiring and helping us!",
+        likes: 18
+      }
+    ];
+
+    const defaultPhotos = [
+      {
+        id: "p1",
+        title: "Carmel School Campus",
+        uploader: "Carmel Archive",
+        url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: "p2",
+        title: "Annual Sports Ground",
+        uploader: "Sports Council",
+        url: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: "p3",
+        title: "Farewell Celebrations",
+        uploader: "Navneet Yadav ('24)",
+        url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+      }
+    ];
+
+    // LocalStorage fallback cache taaki refresh hone par photo gayab na ho
+    let savedMemories = JSON.parse(localStorage.getItem('carmel_local_memories') || '[]');
+    let savedPhotos = JSON.parse(localStorage.getItem('carmel_local_photos') || '[]');
+
+    let currentMemories = savedMemories.length > 0 ? savedMemories : [...defaultMemories];
+    let currentPhotos = savedPhotos.length > 0 ? savedPhotos : [...defaultPhotos];
+    let activeFilter = 'all';
+
+    window.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      initVisitorCounts();
+      renderMemories();
+      renderPhotos();
+
+      if (db) {
+        db.collection("memories").orderBy("timestamp", "desc").onSnapshot(snapshot => {
+          if (!snapshot.empty) {
+            const liveData = [];
+            snapshot.forEach(doc => liveData.push({ id: doc.id, ...doc.data() }));
+            currentMemories = liveData;
+            localStorage.setItem('carmel_local_memories', JSON.stringify(currentMemories));
+            renderMemories();
+          }
+        }, err => console.log(err));
+
+        db.collection("photos").orderBy("timestamp", "desc").onSnapshot(snapshot => {
+          if (!snapshot.empty) {
+            const livePhotos = [];
+            snapshot.forEach(doc => livePhotos.push({ id: doc.id, ...doc.data() }));
+            currentPhotos = livePhotos;
+            localStorage.setItem('carmel_local_photos', JSON.stringify(currentPhotos));
+            renderPhotos();
+          }
+        }, err => console.log(err));
+      }
+    });
+
+    function renderMemories() {
+      const container = document.getElementById('memoriesGrid');
+      if (!container) return;
+
+      const filtered = activeFilter === 'all' 
+        ? currentMemories 
+        : currentMemories.filter(m => m.role === activeFilter);
+
+      document.getElementById('statMemories').innerText = currentMemories.length;
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="bg-brand-surface p-8 rounded-2xl border border-amber-500/20 text-center text-slate-400">
+            Koi memory nahi mili. Pehla message aap post karein!
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map(m => `
+        <article class="bg-brand-surface/90 p-5 rounded-2xl border border-amber-500/20 shadow-lg hover:border-amber-400/50 transition-all">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-full bg-amber-400 text-brand-navy font-black flex items-center justify-center text-sm shadow-md">
+                ${m.name.charAt(0).toUpperCase()}
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-white">${m.name}</h4>
+                <p class="text-[11px] text-slate-400">${m.batch} • <span class="capitalize text-amber-300 font-semibold">${m.role}</span></p>
+              </div>
+            </div>
+            <button onclick="likeMemory('${m.id}')" class="flex items-center space-x-1 px-3 py-1.5 rounded-full bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 text-xs font-bold border border-rose-500/30 transition-all">
+              <i data-lucide="heart" class="w-3.5 h-3.5 fill-rose-500 text-rose-500"></i>
+              <span>${m.likes || 0}</span>
+            </button>
+          </div>
+          <p class="mt-3 text-xs sm:text-sm text-slate-200 leading-relaxed font-sans">
+            ${m.message}
+          </p>
+        </article>
+      `).join('');
+
+      lucide.createIcons();
+    }
+
+    function renderPhotos() {
+      const container = document.getElementById('photosGrid');
+      if (!container) return;
+
+      document.getElementById('statPhotos').innerText = currentPhotos.length;
+
+      container.innerHTML = currentPhotos.map(p => `
+        <div class="bg-brand-surface rounded-2xl overflow-hidden border border-amber-500/20 shadow-xl hover:scale-[1.02] transition-transform duration-300 group">
+          <div class="h-48 overflow-hidden bg-brand-navy relative">
+            <img src="${p.url}" alt="${p.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80'">
+          </div>
+          <div class="p-4 bg-brand-surface">
+            <h4 class="font-bold text-xs sm:text-sm text-white line-clamp-1">${p.title}</h4>
+            <p class="text-[11px] text-amber-300 mt-1">Uploaded by: <span class="font-semibold text-slate-200">${p.uploader}</span></p>
+          </div>
+        </div>
+      `).join('');
+
+      lucide.createIcons();
+    }
+
+    function filterMemories(role) {
+      activeFilter = role;
+      const buttons = ['All', 'Senior', 'Junior', 'Teacher'];
+      buttons.forEach(b => {
+        const btn = document.getElementById(`btnFilter${b}`);
+        if (!btn) return;
+        if (b.toLowerCase() === role || (b === 'All' && role === 'all')) {
+          btn.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold bg-amber-500 text-brand-navy transition-all shadow-md";
+        } else {
+          btn.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold bg-brand-surface text-slate-300 border border-amber-500/20 hover:border-amber-400 transition-all";
+        }
+      });
+      renderMemories();
+    }
+
+    async function handleMemorySubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('authorName').value.trim();
+      const role = document.getElementById('authorRole').value;
+      const batch = document.getElementById('authorBatch').value.trim();
+      const message = document.getElementById('authorMessage').value.trim();
+
+      if (!name || !message) return;
+
+      const newEntry = {
+        name,
+        role,
+        batch,
+        message,
+        likes: 1,
+        timestamp: new Date()
+      };
+
+      currentMemories.unshift({ id: 'loc-' + Date.now(), ...newEntry });
+      localStorage.setItem('carmel_local_memories', JSON.stringify(currentMemories));
+      renderMemories();
+
+      if (db) {
+        try {
+          await db.collection("memories").add(newEntry);
+        } catch(err) {
+          console.warn("DB upload error:", err);
+        }
+      }
+
+      document.getElementById('memoryForm').reset();
+      alert("Aapka message Carmel Wall par live ho gaya hai! ❤️");
+    }
+
+    async function likeMemory(id) {
+      const mem = currentMemories.find(m => m.id === id);
+      if (mem) {
+        mem.likes = (mem.likes || 0) + 1;
+        renderMemories();
+        localStorage.setItem('carmel_local_memories', JSON.stringify(currentMemories));
+        if (db && !id.startsWith('mem-') && !id.startsWith('loc-')) {
+          try {
+            await db.collection("memories").doc(id).update({
+              likes: firebase.firestore.FieldValue.increment(1)
+            });
+          } catch(e) {}
+        }
+      }
+    }
+
+    function openPhotoModal() {
+      document.getElementById('photoModal').classList.remove('hidden');
+    }
+    function closePhotoModal() {
+      document.getElementById('photoModal').classList.add('hidden');
+    }
+
+    async function handlePhotoSubmit(e) {
+      e.preventDefault();
+      const title = document.getElementById('photoTitle').value.trim();
+      const uploader = document.getElementById('photoUploader').value.trim();
+      const fileInput = document.getElementById('photoFileInput');
+      const urlInput = document.getElementById('photoUrlInput').value.trim();
+      const uploadBtn = document.getElementById('btnUploadPhoto');
+
+      if (!title || !uploader) {
+        alert("Title aur uploader naam dono daalein!");
+        return;
+      }
+
+      uploadBtn.innerText = "Processing Photo...";
+      uploadBtn.disabled = true;
+
+      if (fileInput.files && fileInput.files[0]) {
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+        reader.onload = function(evt) {
+          const img = new Image();
+          img.onload = function() {
+            const canvas = document.createElement('canvas');
+            const maxDimension = 800;
+            let width = img.width;
+            let height = img.height;
+
+            if (width > height && width > maxDimension) {
+              height = Math.round((height * maxDimension) / width);
+              width = maxDimension;
+            } else if (height > maxDimension) {
+              width = Math.round((width * maxDimension) / height);
+              height = maxDimension;
+            }
+
+            canvas.width = width;
+            canvas.height = height;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0, width, height);
+
+            const compressedUrl = canvas.toDataURL('image/jpeg', 0.60);
+            savePhotoToState(title, uploader, compressedUrl);
+            uploadBtn.innerText = "Upload to Campus Gallery";
+            uploadBtn.disabled = false;
+          };
+          img.src = evt.target.result;
+        };
+        reader.readAsDataURL(file);
+      } else if (urlInput) {
+        savePhotoToState(title, uploader, urlInput);
+        uploadBtn.innerText = "Upload to Campus Gallery";
+        uploadBtn.disabled = false;
+      } else {
+        alert("Device se photo choose karein ya image URL daalein!");
+        uploadBtn.innerText = "Upload to Campus Gallery";
+        uploadBtn.disabled = false;
+      }
+    }
+
+    async function savePhotoToState(title, uploader, url) {
+      const newPhoto = {
+        title,
+        uploader,
+        url,
+        timestamp: new Date()
+      };
+
+      // 1. Instantly local array me add karo aur screen par render karo
+      currentPhotos.unshift({ id: 'p-' + Date.now(), ...newPhoto });
+      localStorage.setItem('carmel_local_photos', JSON.stringify(currentPhotos));
+      renderPhotos();
+
+      // 2. Firebase me send karo
+      if (db) {
+        try {
+          await db.collection("photos").add(newPhoto);
+        } catch(e) {
+          console.warn("DB photo add fallback:", e);
+        }
+      }
+
+      closePhotoModal();
+      document.getElementById('photoTitle').value = '';
+      document.getElementById('photoUploader').value = '';
+      document.getElementById('photoFileInput').value = '';
+      document.getElementById('photoUrlInput').value = '';
+
+      alert("Photo turant Campus Gallery me add ho gayi! 📸");
+    }
+
+    function scrollToWriteMemory() {
+      document.getElementById('postMemoryContainer').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('authorName').focus();
+    }
+
+    function copyLinkedInLink() {
+      navigator.clipboard.writeText("https://www.linkedin.com/in/navneet-yadav-60a758289/");
+      const btn = document.getElementById('copyBtnText');
+      btn.innerText = "Copied! ✓";
+      setTimeout(() => btn.innerText = "Copy Profile Link", 2000);
+    }
+
+    function initVisitorCounts() {
+      let count = localStorage.getItem('carmel_visits') || 1493;
+      count = parseInt(count) + 1;
+      localStorage.setItem('carmel_visits', count);
+
+      document.getElementById('topVisitCount').innerText = count.toLocaleString();
+      document.getElementById('statVisits').innerText = count.toLocaleString();
+
+      const online = Math.floor(Math.random() * 8) + 15;
+      document.getElementById('topOnlineCount').innerText = online;
+    }
+  </script>
+</body>
+</html>
